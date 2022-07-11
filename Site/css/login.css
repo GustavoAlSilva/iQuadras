@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #597CA9;
+    color: #fff;
+    border-bottom: 2px solid #31445C;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    padding-left: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #D5D5D5;
+}
+
+.card {
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 5px;
+    width:280px;
+}
+
+.card-header {
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.card-header::after {
+    content: "";
+    width: 75px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: 1px;
+    margin-left: -5px;
+}
+
+.card-content label {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #597CA9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #31445C;
+}
+
+.recuperar_senha {
+    margin-top: 5px;
+}

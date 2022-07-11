@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="img/iQuadras-Miniatura.ico"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Mulish:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>iQuadras</title>
+  </head>
+
+  <body>
+    <div class="container_perfil">
+      <div class="conteudo_main">
+        <div class="alinhamento">
+          <div class="foto_perfil">
+            <img
+            href="index.html"
+              class="logo_empresa"
+              src="img/embraco_logo.png"
+              alt="Logo Empresa"
+            />
+          </div>
+          <div class="flex_btn_perfil">
+            <a href="index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="voltar"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <button class="editar_perfil">
+                EDITAR PERFIL
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="h_quadras">
+          <h1 class="h1_quadras">Gerenciador de quadras</h1>
+        </div>
+        <div class="linha"></div>
+        <div class="flex_card_perfil">
+          <div class="card">
+            <div class="quadra">
+              <div class="quadra_imagem">
+                <a href="#">
+                  <img
+                    class="foto"
+                    src="img/basquete_street.jpg"
+                    alt="Quadra de Basquete"
+                  />
+                </a>
+              </div>
+              <div class="quadra_conteudo">
+                <div class="quadra_titulo">
+                  <div class="quadra_texto">
+                    <a class="none" href="perfil_publico.html">
+                      <span class="empresa">Embraco</span>
+                    </a>
+                    <h2>Quadra de Basquete</h2>
+                  </div>
+                  <div class="fav">
+                    <svg
+                      class="fav-main"
+                      viewBox="0 0 512 512"
+                      width="100"
+                      title="heart"
+                    >
+                      <path
+                        d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="separador"></div>
+                <div class="quadra_descricao">
+                  <span class="descricao">
+                    Quadra Street com piso de cimento, ideal para 3x3
+                  </span>
+                </div>
+                <div class="detalhes">
+                  <div class="preco">
+                    <span class="preco">
+                      R$80,00
+                      <span class="hora">/Hora</span>
+                    </span>
+                  </div>
+
+                  <div class="botao_remover">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="remover"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </div>
+                  <button class="alugar">EDITAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="add_alinhamento">
+            <div class="quadra_add">
+              <button class="botao_adicionar">
+                <a href="cadastro_quadra.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="adicionar"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container_footer">
+          <div>
+            <h4>Sobre</h4>
+            <ul>
+              <li>Quem Somos</li>
+              <li>Trabalhe Conosco</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contato</h4>
+            <ul>
+              <li>Email</li>
+              <li>Telefone</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Políticas</h4>
+            <ul>
+              <li>Política de Privacidade</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

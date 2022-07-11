@@ -1,0 +1,594 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+button,
+aside,
+span,
+header,
+.button,
+.procurar {
+  font-family: 'Mulish', sans-serif;
+}
+
+header {
+  background-image: linear-gradient(135deg, #2980b9 10%, #216694 100%);
+  /*background-color: #2980b9;*/
+}
+
+.res {
+  width: 1400px;
+}
+
+.logo {
+  display: flex;
+  cursor: pointer;
+  width: 15%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.entrar {
+  letter-spacing: 1px;
+  padding: 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+  border: none;
+  color: white;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+
+.entrar:hover {
+  text-shadow: 0px 0px 20px white;
+}
+
+.cadastrar {
+  letter-spacing: 1px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 50px;
+  border: 2px solid;
+  color: white;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+
+.cadastrar:hover {
+  text-shadow: 0px 0px 20px white;
+}
+
+header {
+  height: 80px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #96aac3 0px 1px 10px;
+}
+.filtros {
+  background: white;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  transition: 0.2s ease;
+}
+
+.filtros:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0, 0.08);
+  padding: 2px 0px;
+}
+
+.procurar {
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  background-color: #2980b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  transition: all 0.2s;
+}
+
+.procurar:hover {
+  background-color: #216694;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icone {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  stroke: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.user {
+  width: 24px;
+  height: 24px;
+  stroke: #216694;
+  fill: #216694;
+}
+
+.user:hover {
+  transition: 0.3s;
+  fill: white;
+}
+
+.perfil {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+span {
+  width: 1px;
+  height: 24px;
+  background-color: #ddd;
+}
+
+.button {
+  background: transparent;
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: all 0.3s;
+  border-radius: 50px;
+}
+
+.button:last-of-type {
+  padding-right: 10px;
+}
+
+.button:first-of-type {
+  padding-left: 20px;
+}
+
+.button:hover {
+  background-color: #b3b3b330;
+  border-radius: 50px;
+}
+
+.conteudo_main {
+  margin: 0 auto;
+  min-height: calc(100vh - 80px);
+  width: 1400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+
+.botao_main {
+  padding: 8px 16px;
+  outline: none;
+  background: transparent;
+  margin: 0;
+  border: 1px solid #b3b3b3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0, 0.8);
+  color: #1a1a1a;
+  border-radius: 50px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.botao_main:hover {
+  color: white;
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.main_filtros {
+  padding-top: 25px;
+}
+
+h1 {
+  margin-top: 2px;
+  font-size: 34px;
+  color: #1a1a1a;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666666;
+}
+
+.linha {
+  margin-top: 20px;
+  border-top: 1px solid #ebebeb;
+  padding: 24px 0;
+  display: flex;
+  margin-bottom: -26px;
+}
+
+.linha_perfil_publico {
+  border-top: 1px solid #ebebeb;
+  padding: 24px 0;
+  display: flex;
+  margin-bottom: -26px;
+}
+
+.flex_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.flex_add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.quadra {
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: all 0.2s;
+  border: 2px solid #eeeeee7e;
+}
+
+.quadra:hover {
+  transform: scale(101%);
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+.quadra_titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quadra_texto a span {
+  transition: all 0.2s;
+}
+
+.quadra_texto a span:hover {
+  color: #333;
+}
+
+.fav {
+  display: flex;
+  width: 22px;
+  height: 20px;
+  cursor: pointer;
+  stroke-width: 50px;
+  cursor: pointer;
+  position: relative;
+  stroke: #2980b9;
+  fill: transparent;
+  transition: all 0.2s;
+}
+
+.fav:hover {
+  fill: #2980b9;
+}
+
+.quadra_imagem {
+  width: 296px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.quadra_conteudo {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.foto {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.empresa {
+  text-decoration: none;
+  background: transparent;
+  color: #666666;
+}
+
+.none {
+  text-decoration: none;
+}
+
+.separador {
+  margin-top: 8px;
+  margin-bottom: 6px;
+  width: 280px;
+  height: 1px;
+  background: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descricao {
+  background: transparent;
+  color: #666666;
+}
+
+.detalhes {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preco {
+  padding-top: 14px;
+  padding-left: 2px;
+  background: transparent;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hora {
+  margin-left: -4px;
+  background: transparent;
+  font-size: 16px;
+}
+
+.alugar {
+  letter-spacing: 0.6px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background-color: #2980b9;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.alugar:hover {
+  background-color: #216694;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0, 0.08);
+}
+
+.flex_card_perfil {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.quadra_add {
+  margin-left: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+}
+
+.botao_adicionar {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: transparent;
+}
+
+.adicionar {
+  width: 50px;
+  height: 50px;
+  stroke: rgba(0, 180, 0, 0.693);
+  transition: all 0.2s;
+}
+
+.adicionar:hover {
+  transform: scale(102%);
+  stroke: rgba(0, 220, 0, 0.693);
+}
+
+.botao_remover {
+  cursor: pointer;
+  border-radius: 100px;
+  border: #cf0e0e;
+  color: #cf0e0e;
+  background-color: #cf0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -32px;
+  transition: all 0.2s;
+}
+
+.botao_remover:hover {
+  transform: scale(102%);
+  background-color: #a60b0b;
+}
+
+.remover {
+  width: 36px;
+  height: 22px;
+  object-fit: cover;
+  align-items: center;
+  stroke: white;
+}
+
+.foto_perfil {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 64px solid #2980b9;
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 6px;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.foto_perfil:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  transform: scale(101%);
+}
+
+.editar_perfil {
+  letter-spacing: 1px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 24px;
+  border: 2px solid;
+  color: white;
+  background-color: #2980b9;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.editar_perfil:hover {
+  background-color: #216694;
+}
+
+.voltar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  padding-top: 8px;
+  width: 38px;
+  height: 38px;
+  stroke: #2980b9;
+  transition: all 0.2s;
+}
+
+.voltar:hover {
+  stroke: #216694;
+}
+
+.flex_btn_perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_empresa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.alinhamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.h1_quadras {
+  font-size: 34px;
+  color: #1a1a1a;
+}
+
+.h_quadras {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  background-color: #eeeeee;
+  border-top: 1px solid rgba(221, 221, 221, 0.801);
+  padding: 30px 0;
+}
+
+.container_footer {
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+h4 {
+  color: #1a1a1a;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 0.4px;
+}
+
+li {
+  letter-spacing: 0.4px;
+  color: #1a1a1a;
+  list-style: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+li:hover {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0, 0.08);
+  color: #216694;
+}
+
+a {
+  text-decoration: none;
+}

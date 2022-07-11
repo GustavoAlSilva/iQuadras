@@ -1,0 +1,309 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  border: none;
+  color: #1a1a1a;
+}
+
+input {
+  font-weight: bold;
+}
+
+input,
+label {
+  display: block;
+  width: 100%;
+}
+
+input:focus label:focus {
+  outline: none;
+}
+
+a {
+  color: #216694;
+}
+
+body {
+  padding-top: 10vh;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(135deg, #2980b9 10%, #216694 100%);
+}
+
+.body1 {
+  padding-top: 32vh;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(135deg, #2980b9 10%, #216694 100%);
+}
+
+.body2 {
+  padding-top: 22vh;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(135deg, #2980b9 10%, #216694 100%);
+}
+
+.container {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.card_cadastro {
+  width: 500px;
+  height: 630px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+.card_cadastro:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+}
+
+.card_cadastro1 {
+  width: 500px;
+  height: 240px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+.card_cadastro1:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+}
+
+.card_cadastro2 {
+  width: 500px;
+  height: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+.card_cadastro2:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+}
+
+.card_cadastro_quadra {
+  width: 500px;
+  height: 1030px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+.card_cadastro_quadra:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+}
+
+.cadastre-se {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 26px;
+  font-size: 1.6rem;
+}
+
+.cadastro-quadra {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 26px;
+  font-size: 1.6rem;
+  margin-left: -12px;
+}
+
+.cadastre-se2 {
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 34px;
+  font-size: 1.6rem;
+}
+
+.entrar_frase {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.caixa_inteira {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.caixa_metade {
+  flex: 1 1 45%;
+}
+
+.espaco {
+  margin-right: 2.5%;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 8rem;
+}
+
+input {
+  border-bottom: 2px solid #000000;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+  margin-top: 4px;
+}
+
+input[type='submit'] {
+  letter-spacing: 1px;
+  padding: 14px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px;
+  color: white;
+  background-color: #2980b9;
+  border: none;
+  transition: all 0.2s;
+}
+
+input[type='submit']:hover {
+  box-shadow: rgba(0, 0, 0, 0.08);
+  background-color: #216694;
+}
+
+#agreement {
+  margin-right: 4px;
+}
+
+#agreement,
+#agreement_label {
+  display: inline-block;
+  width: auto;
+}
+
+#radio_label {
+  margin-right: 2px;
+}
+
+#radio,
+#radio_label {
+  display: inline-block;
+  width: auto;
+}
+
+.error_validation {
+  color: red;
+  position: absolute;
+  top: 57px;
+  font-size: 0.8rem;
+}
+
+.template {
+  display: none;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.botao {
+  letter-spacing: 1px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px;
+  color: white;
+  background-color: #2980b9;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.botao:hover {
+  background-color: #216694;
+}
+
+.voltar {
+  width: 34px;
+  height: 34px;
+  margin-right: 76px;
+  stroke: #2980b9;
+  transition: all 0.2s;
+}
+
+.voltar:hover {
+  stroke: #216694;
+}
+
+.voltar_locador {
+  width: 34px;
+  height: 34px;
+  margin-right: 70px;
+  stroke: #2980b9;
+  transition: all 0.2s;
+}
+
+.voltar_locador:hover {
+  stroke: #216694;
+}
+
+.voltar_cadastro {
+  display: flex;
+}
+
+.voltar_init {
+  width: 34px;
+  height: 34px;
+  margin-right: 56px;
+  stroke: #2980b9;
+  transition: all 0.2s;
+}
+
+.voltar_init:hover {
+  stroke: #216694;
+}
+
+.voltar_acesse {
+  width: 34px;
+  height: 34px;
+  margin-right: 84px;
+  stroke: #2980b9;
+  transition: all 0.2s;
+}
+
+.voltar_acesse:hover {
+  stroke: #216694;
+}
+
+.radio {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.bord {
+  border-bottom: 0px solid;
+}
