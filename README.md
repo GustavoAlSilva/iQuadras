@@ -15,8 +15,8 @@ Joinville, julho, 2022
 
 # Apresentação
 O site terá como principal finalidade hospedar, disponibilizar e gerenciar informações acerca de locações de quadras de Joinville, Santa Catarina. Os locadores poderão cadastrar suas quadras, adicionando suas respectivas informações e nós as disponibilizamos para que os usuários as aluguem.
-Contará com: uma página inicial, que terá as locações; uma página de login; e uma página de cadastro. Na página inicial terá um sistema de filtragem de pesquisa, para que os usuários possam buscar quadras com mais especificações, como por exemplo pelo esporte que deseja praticar ou por opções de estrutura, como “Quadra Coberta”.
-O site ajudará os empreendedores a alugar mais seus ambientes e, consequentemente, aumentar seus lucros; e o público a otimizar seu tempo de busca por lazer.
+ Contará com: uma página inicial, que terá as locações; uma página de login; e uma página de cadastro. Na página inicial terá um sistema de filtragem de pesquisa, para que os usuários possam buscar quadras com mais especificações, como por exemplo pelo esporte que deseja praticar ou por opções de estrutura, como “Quadra Coberta”.
+ O site ajudará os empreendedores a alugar mais seus ambientes e, consequentemente, aumentar seus lucros; e o público a otimizar seu tempo de busca por lazer.
 
 # Especificação de Requisitos
 ### ⦁ Requisitos Funcionais:
