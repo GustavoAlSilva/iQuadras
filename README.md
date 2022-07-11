@@ -5,11 +5,11 @@ Curso Profissionalizante Jovem Programador
 Nome do Projeto: iQuadras
 
 Equipe:
-Derick Roberto Kuhn
-Fernanda Luiza Godinho
-Gustavo Almeida da Silva
-Kevin Schandler Kuhn
-Luís Fillipe Venturini Quintino
+Derick Roberto Kuhn;
+Fernanda Luiza Godinho;
+Gustavo Almeida da Silva;
+Kevin Schandler Kuhn;
+Luís Fillipe Venturini Quintino.
 
 Joinville, julho, 2022
 
